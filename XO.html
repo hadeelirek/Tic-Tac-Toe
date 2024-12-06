@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="XO.css">
+    <script src="XO.js"></script>
+    <title>Game</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Tic-Tac-Toe</h1>
+        <h4 class="sub-title">~ two players game</h4>
+        <p>
+            the first player is X <span class="aqua">(aqua)</span>
+            <br>
+            second player is O <span class="blue">(blue)</span>
+        </p>
+        <div class="board" id="board">
+            <div class="cell" onclick="clickDiv(this)" id="div1" role="button" aria-label="cell 1"></div>
+            <div class="cell" onclick="clickDiv(this)" id="div2" role="button" aria-label="cell 2"></div>
+            <div class="cell" onclick="clickDiv(this)" id="div3" role="button" aria-label="cell 3"></div>
+            <div class="cell" onclick="clickDiv(this)" id="div4" role="button" aria-label="cell 4"></div>
+            <div class="cell" onclick="clickDiv(this)" id="div5" role="button" aria-label="cell 5"></div>
+            <div class="cell" onclick="clickDiv(this)" id="div6" role="button" aria-label="cell 6"></div>
+            <div class="cell" onclick="clickDiv(this)" id="div7" role="button" aria-label="cell 7"></div>
+            <div class="cell" onclick="clickDiv(this)" id="div8" role="button" aria-label="cell 8"></div>
+            <div class="cell" onclick="clickDiv(this)" id="div9" role="button" aria-label="cell 9"></div>
+        </div>
+        <button onclick="resetGame()">Reset Game</button>
+        <p id="message"></p>
+    </div>
+
+</body>
+
+</html>
